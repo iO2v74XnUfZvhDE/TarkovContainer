@@ -1,0 +1,12 @@
+name: TarkovContainer
+version: '${version}'
+main: me.io2.tarkovcontainer.TarkovContainer
+api-version: 1.16
+
+commands:
+  setyamioti:
+    permission: me.io2.tarkovcontainer.op
+
+permissions:
+  me.io2.tarkovcontainer.op:
+    default: op
